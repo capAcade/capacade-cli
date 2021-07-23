@@ -4,20 +4,24 @@
   "description": "the cli for generating games for the Arcade from capacade",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "plop": "plop"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/capAcade/capacade-cli.git"
   },
   "bin": {
-    "capacade-cli": "index.js",
-    "@capacade/capacade-cli": "index.js"
+    "capacade-cli": "plop",
+    "@capacade/capacade-cli": "plop"
   },
   "author": "Sven van Straalen",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/capAcade/capacade-cli/issues"
   },
-  "homepage": "https://github.com/capAcade/capacade-cli#readme"
+  "homepage": "https://github.com/capAcade/capacade-cli#readme",
+  "dependencies": {
+    "plop": "^2.7.4"
+  }
 }
