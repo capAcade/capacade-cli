@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/capAcade/cli.git"
+    "url": "git+https://github.com/capAcade/capacade-cli.git"
   },
   "bin": {
     "capacade-cli": "index.js",
@@ -17,7 +17,7 @@
   "author": "Sven van Straalen",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/capAcade/cli/issues"
+    "url": "https://github.com/capAcade/capacade-cli/issues"
   },
-  "homepage": "https://github.com/capAcade/cli#readme"
+  "homepage": "https://github.com/capAcade/capacade-cli#readme"
 }
