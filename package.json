@@ -1,0 +1,23 @@
+{
+  "name": "@capacade/capacade-cli",
+  "version": "1.0.0",
+  "description": "the cli for generating games for the Arcade from capacade",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capAcade/cli.git"
+  },
+  "bin": {
+    "capacade-cli": "index.js",
+    "@capacade/capacade-cli": "index.js"
+  },
+  "author": "Sven van Straalen",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/capAcade/cli/issues"
+  },
+  "homepage": "https://github.com/capAcade/cli#readme"
+}
